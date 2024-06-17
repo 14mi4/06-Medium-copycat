@@ -1,0 +1,73 @@
+body {
+  font-family: 'Lora';
+  line-height: 1.6;
+  font-weight: 500;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  color: rgb(160, 160, 160);
+}
+
+.banner {
+  background-image: url('banner-image.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+a {
+  font-family: 'Lora', serif;
+  font-size: 25px;
+  font-style: italic;
+  color: #5c5b62;
+  text-decoration: none;
+  background-image: linear-gradient(120deg, #79e380 0%, #79e380 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 3px;
+  background-position: 0 100%;
+  transition: background-size 0.3s;
+}
+
+a:hover {
+  background-size: 100% 100%;
+  color: rgb(244, 244, 244);
+}
+
+
+@media (max-width: 1200px) {
+  .container {
+      width: 90%;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+      width: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+      width: 90%;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+      width: 95%;
+  }
+}
